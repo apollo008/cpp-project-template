@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(TOP_PROJECT_NAME cppunitdemo)  #need set
+set(TOP_PROJECT_NAME CppProjTemplate)  #need set
 message(TOP_PROJECT_NAME=${TOP_PROJECT_NAME})
 
 project(${TOP_PROJECT_NAME})
