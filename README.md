@@ -1,6 +1,6 @@
 ### CppProjTemplate：c++ 工程初始模板简介
 
-CppProjTemplate是一个简易精炼的C++工程的模板项目，该项目清晰地设置了一个C++项目工程的较为推荐的源码目录结构。用户只需通过git从github下载后做一些极其简单的修改后，就可以在此代码结构目录下添加和编写自己的代码模块。它具有以下优势：
+CppProjTemplate是一个简易精炼的C++工程的模板项目，该项目清晰地设置了一个典型C++项目工程的较为推荐的源码目录结构。用户只需通过git从github下载后做一些极其简单的修改后，就可以在此代码结构目录下添加和编写自己的代码模块，轻松支持C++单元测试编码框架。它具有以下优势：
 
 1. 工程整体采用支持跨平台的CMake 构建工具构建而成，移植性好，CMake语法简洁易用，后续添加和编辑代码模板构建易用。
 2. 工程已经包含和支持作者自研的开源的成熟稳定的日志系统 [tulip-log](https://github.com/apollo008/tulip-log), Github地址：[https://github.com/apollo008/tulip-log](https://github.com/apollo008/tulip-log) ，打印日志功能强大而易用。
