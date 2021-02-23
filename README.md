@@ -24,7 +24,7 @@ git clone https://github.com/apollo008/cpp-proj-template.git cpp-proj-template.g
 cd cpp-proj-template.git
 vim src/CMakeLists.txt 
 搜索need to set 发现存在第3行和第11行，依次修改如下：
-第3行： set(TOP_PROJECT_NAME cppunitdemo) 将cppunitdemo改为你的实际项目名称
+第3行： set(TOP_PROJECT_NAME CppProjTemplate) 将CppProjTemplate改为你的实际项目名称
 第11行： set(${TOP_PROJECT_NAME_UPPER}_DEPEND_PREFIX_DIR /path/to/install/share) 将/path/to/install/share改为share库的安装路径，比如${HOME}/local,注意确保该路径有写权限。修改之后后续不要再改变该路径。
 
 mkdir build-dir
