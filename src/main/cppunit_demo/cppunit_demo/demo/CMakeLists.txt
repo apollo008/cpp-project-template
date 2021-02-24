@@ -27,7 +27,18 @@ target_link_libraries(cppunit_demo_test5 cppunit dl tulip cppunit_demo_lib )
 #add_test(cppunit_demo_test4 cppunit_demo_test4)
 #add_test(cppunit_demo_test5 cppunit_demo_test5)
 
+add_executable(string_to_int_unittest_exe
+        string_to_int_unittest_exe.cpp
+        )
 
+target_link_libraries( string_to_int_unittest_exe
+        cppunit
+        dl
+        )
+
+install( TARGETS
+        string_to_int_unittest_exe
+        DESTINATION bin )
 
 install(TARGETS
         cppunit_demo_test1
